@@ -41,17 +41,26 @@ public class Bola : MonoBehaviour
                 velocity.x *= -1;
             }
 
-            else if (transform.position.z < collision.transform.position.z - 2 || transform.position.z > collision.transform.position.z + 2)
+            else if (transform.position.z < collision.transform.position.z - 1 || transform.position.z > collision.transform.position.z + 1)
             {
                 velocity.z *= -1;
             }
 
             Destroy(collision.gameObject);
+            GameManager.Instance.BrickDestroy();
         }
 
-        if (collision.gameObject.tag == "Brick" || collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player")
         {
             velocity.z *= -1;
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == ("Lose"))
+        {
+            GameManager.Instance.LoseLife();
         }
     }
 
