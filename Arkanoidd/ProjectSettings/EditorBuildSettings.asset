@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 567d210d5e4f11340bae95820f42b23b
   - enabled: 1
-    path: Assets/Arkanoid.unity
+    path: Assets/Scenes/Arkanoid.unity
     guid: 708d6a0876ebe174ea8e13b99f8e8cb8
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 7a98c5a4051477142b458cc6776920fd
   m_configObjects: {}

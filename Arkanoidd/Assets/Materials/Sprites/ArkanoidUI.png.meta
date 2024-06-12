@@ -110,15 +110,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ArkanoidUI_0
+      name: YouWinText
       rect:
         serializedVersion: 2
-        x: 5
-        y: 175
-        width: 150
-        height: 40
+        x: 235
+        y: 435
+        width: 400
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -131,36 +131,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArkanoidUI_1
+      name: ExitButton
       rect:
         serializedVersion: 2
-        x: 85
-        y: 245
+        x: 80
+        y: 535
         width: 115
-        height: 20
+        height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 255c609a66854e641a6eaff0b35ae047
-      internalID: 1966175714
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ArkanoidUI_2
-      rect:
-        serializedVersion: 2
-        x: 85
-        y: 270
-        width: 65
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -173,15 +152,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArkanoidUI_3
+      name: LivesText
       rect:
         serializedVersion: 2
         x: 85
-        y: 295
+        y: 615
         width: 85
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,15 +173,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArkanoidUI_4
+      name: Life
       rect:
         serializedVersion: 2
         x: 15
-        y: 260
+        y: 580
         width: 50
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -215,15 +194,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArkanoidUI_5
+      name: TutorialText
       rect:
         serializedVersion: 2
         x: 250
-        y: 220
+        y: 540
         width: 380
         height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -231,6 +210,132 @@ TextureImporter:
       bones: []
       spriteID: 4232ada6aa2e8d048bfcb73a57594c26
       internalID: -247485133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MutliBall
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 400
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1360ee76da86e03429b91050aa2f1a2d
+      internalID: 386396464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Credits
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 335
+        width: 630
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e8ee5835d9afa45b35d7e001f05cfb
+      internalID: -1673504481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Play
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 240
+        width: 155
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c880e083ecfdd408e2f3bb57cb1080
+      internalID: 1969536887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exit
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 240
+        width: 160
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b57478fe27f0404697a173be0906c33
+      internalID: 87284352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 50
+        width: 470
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d66924629770844197ae6406d9fc7ed
+      internalID: -1266645671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Credit
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 270
+        width: 125
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61beb5230ab32484c946f49d7ac2b8a0
+      internalID: 1608399189
       vertices: []
       indices: 
       edges: []
@@ -246,12 +351,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ArkanoidUI_0: 890906595
       ArkanoidUI_1: 1966175714
-      ArkanoidUI_2: -1452531010
-      ArkanoidUI_3: 2044136468
-      ArkanoidUI_4: 728977603
-      ArkanoidUI_5: -247485133
+      Credit: 1608399189
+      Credits: -1673504481
+      Exit: 87284352
+      ExitButton: -1452531010
+      Life: 728977603
+      LivesText: 2044136468
+      MutliBall: 386396464
+      Play: 1969536887
+      Title: -1266645671
+      TutorialText: -247485133
+      YouWinText: 890906595
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

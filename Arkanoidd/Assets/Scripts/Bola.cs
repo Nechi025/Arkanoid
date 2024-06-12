@@ -9,6 +9,7 @@ public class Bola : MonoBehaviour
     public Vector3 velocity;
     public bool isBallMoving;
     public GameObject parent;
+    public Multiball multiBall;
 
     private void Update()
     {
@@ -51,6 +52,23 @@ public class Bola : MonoBehaviour
             GameManager.Instance.BrickDestroy();
         }
 
+        if (collision.gameObject.tag == "BrickMultiball")
+        {
+            if (transform.position.x < collision.transform.position.x - 2 || transform.position.x > collision.transform.position.x + 2)
+            {
+                velocity.x *= -1;
+            }
+
+            else if (transform.position.z < collision.transform.position.z - 1 || transform.position.z > collision.transform.position.z + 1)
+            {
+                velocity.z *= -1;
+            }
+
+            Multiball spawnedMultiball = Instantiate(multiBall, collision.transform.position, Quaternion.identity);
+            Destroy(collision.gameObject);
+            GameManager.Instance.BrickDestroy();
+        }
+
         if (collision.gameObject.tag == "Player")
         {
             velocity.z *= -1;
@@ -61,13 +79,18 @@ public class Bola : MonoBehaviour
     {
         if (other.gameObject.tag == ("Lose"))
         {
-            GameManager.Instance.LoseLife();
+            if (GameObject.FindGameObjectsWithTag("Ball").Length == 1)
+            {
+                GameManager.Instance.LoseLife();
 
-            transform.position = parent.transform.position + new Vector3(0,0,2);
-            velocity.x = 0;
-            velocity.z = 0;
-            isBallMoving = false;
-            transform.parent = parent.transform;
+                transform.position = parent.transform.position + new Vector3(0, 0, 2);
+                velocity.x = 0;
+                velocity.z = 0;
+                isBallMoving = false;
+                transform.parent = parent.transform;
+            }
+
+            else Destroy(this.gameObject);
         }
     }
 
