@@ -7,7 +7,6 @@ public class GameManager : MonoBehaviour
 {
     public HUD _hud;
     public Bola ballPrefab;
-    public GameObject player;
 
     private int bricksLeft;
     private int lifes = 3;
@@ -25,7 +24,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        bricksLeft = GameObject.FindGameObjectsWithTag("Brick").Length;
+        bricksLeft = GameObject.FindGameObjectsWithTag("Brick").Length + GameObject.FindGameObjectsWithTag("BrickMultiball").Length;
     }
 
     public void BrickDestroy()
@@ -39,7 +38,7 @@ public class GameManager : MonoBehaviour
 
     private void Win()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void LoseLife()
@@ -60,7 +59,7 @@ public class GameManager : MonoBehaviour
             Bola spawnedball = Instantiate(ballPrefab, position + new Vector3(0,0,2), Quaternion.identity) as Bola;
 
             spawnedball.transform.parent = null;
-            spawnedball.velocity.x = 1;
+            spawnedball.velocity.x = Random.Range(-1, 1);
             spawnedball.velocity.z = 1;
             spawnedball.isBallMoving = true;
             Rigidbody spawnedBallRb = spawnedball.GetComponent<Rigidbody>();

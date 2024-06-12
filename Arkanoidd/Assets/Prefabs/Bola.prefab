@@ -148,7 +148,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  parent: {fileID: 0}
+  velocity: {x: 0, y: 0, z: 0}
+  isBallMoving: 0
+  parent: {fileID: 4846227098022480628, guid: f4d10301efa61794fa5b9be6105900d9, type: 3}
+  multiBall: {fileID: 1141865635088415896, guid: 32ce9b8a5609316429795199e93453b1, type: 3}
 --- !u!108 &1803983096777612291
 Light:
   m_ObjectHideFlags: 0
