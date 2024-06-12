@@ -148,6 +148,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  velocity: {x: 0, y: 0, z: 0}
+  isBallMoving: 0
   parent: {fileID: 0}
 --- !u!108 &1803983096777612291
 Light:
