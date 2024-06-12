@@ -10,6 +10,7 @@ public class Bola : MonoBehaviour
     public bool isBallMoving;
     public GameObject parent;
     public Multiball multiBall;
+    public GameObject tutorial;
 
     private void Update()
     {
@@ -19,6 +20,7 @@ public class Bola : MonoBehaviour
             velocity.x = 1;
             velocity.z = 1;
             isBallMoving = true;
+            Destroy(tutorial);
         }
 
         Move(velocity);
