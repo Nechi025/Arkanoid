@@ -6,8 +6,9 @@ public class Bola : MonoBehaviour
 {
 
     [SerializeField] float speed = 0;
-    private Vector3 velocity;
-    private bool isBallMoving;
+    public Vector3 velocity;
+    public bool isBallMoving;
+    public GameObject parent;
 
     private void Update()
     {
@@ -61,6 +62,12 @@ public class Bola : MonoBehaviour
         if (other.gameObject.tag == ("Lose"))
         {
             GameManager.Instance.LoseLife();
+
+            transform.position = parent.transform.position + new Vector3(0,0,2);
+            velocity.x = 0;
+            velocity.z = 0;
+            isBallMoving = false;
+            transform.parent = parent.transform;
         }
     }
 

@@ -5,8 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public HUD _hud;
+    public Bola ballPrefab;
+    public GameObject player;
+
     private int bricksLeft;
-    private int lifes;
+    private int lifes = 3;
 
     public static GameManager Instance { get; private set; }
 
@@ -42,11 +46,26 @@ public class GameManager : MonoBehaviour
     {
         if (lifes <= 0)
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene("MainMenu");
         }
 
-        lifes--;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        lifes -= 1;
+        _hud.DesactiveLife(lifes);
+    }
+
+    public void MultiBall(Vector3 position, int count)
+    {
+        for (int i = 0; i < count; i++)
+        {
+            Bola spawnedball = Instantiate(ballPrefab, position + new Vector3(0,0,2), Quaternion.identity) as Bola;
+
+            spawnedball.transform.parent = null;
+            spawnedball.velocity.x = 1;
+            spawnedball.velocity.z = 1;
+            spawnedball.isBallMoving = true;
+            Rigidbody spawnedBallRb = spawnedball.GetComponent<Rigidbody>();
+            spawnedBallRb.isKinematic = false;
+        }
     }
 
 
