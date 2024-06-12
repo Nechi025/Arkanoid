@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
 
     private void Win()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Win");
     }
 
     public void LoseLife()
