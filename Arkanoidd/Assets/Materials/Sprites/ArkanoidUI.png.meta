@@ -110,15 +110,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ArkanoidUI_0
+      name: YouWinText
       rect:
         serializedVersion: 2
-        x: 5
-        y: 175
-        width: 150
-        height: 40
+        x: 235
+        y: 115
+        width: 400
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -131,36 +131,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArkanoidUI_1
+      name: ExitButton
       rect:
         serializedVersion: 2
-        x: 85
-        y: 245
+        x: 80
+        y: 215
         width: 115
-        height: 20
+        height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 255c609a66854e641a6eaff0b35ae047
-      internalID: 1966175714
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ArkanoidUI_2
-      rect:
-        serializedVersion: 2
-        x: 85
-        y: 270
-        width: 65
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -173,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArkanoidUI_3
+      name: LivesText
       rect:
         serializedVersion: 2
         x: 85
@@ -181,7 +160,7 @@ TextureImporter:
         width: 85
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArkanoidUI_4
+      name: Life
       rect:
         serializedVersion: 2
         x: 15
@@ -202,7 +181,7 @@ TextureImporter:
         width: 50
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -215,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArkanoidUI_5
+      name: TutorialText
       rect:
         serializedVersion: 2
         x: 250
@@ -223,7 +202,7 @@ TextureImporter:
         width: 380
         height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -246,12 +225,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ArkanoidUI_0: 890906595
       ArkanoidUI_1: 1966175714
-      ArkanoidUI_2: -1452531010
-      ArkanoidUI_3: 2044136468
-      ArkanoidUI_4: 728977603
-      ArkanoidUI_5: -247485133
+      ExitButton: -1452531010
+      Life: 728977603
+      LivesText: 2044136468
+      TutorialText: -247485133
+      YouWinText: 890906595
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
