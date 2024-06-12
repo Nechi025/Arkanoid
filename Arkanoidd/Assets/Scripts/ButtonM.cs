@@ -14,6 +14,10 @@ public class ButtonM : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
+    public void OnCreditGameButtonClicked()
+    {
+        SceneManager.LoadScene("Credits");
+    }
     public void OnExitGameButtonClicked()
     {
         Application.Quit();
