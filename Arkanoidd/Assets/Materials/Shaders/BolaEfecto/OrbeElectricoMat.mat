@@ -101,5 +101,5 @@ Material:
     - _ColorPatron: {r: 1, g: 0.88261, b: 0.3647059, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FColor: {r: 2, g: 0.8070782, b: 0.5968586, a: 0}
-    - _XY: {r: 1, g: 1, b: 0, a: 0}
+    - _XY: {r: 0.1, g: 0.1, b: 0, a: 0}
   m_BuildTextureStacks: []
