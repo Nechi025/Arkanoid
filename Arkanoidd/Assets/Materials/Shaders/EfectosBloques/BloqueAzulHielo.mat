@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: OrbeElectricoMat
-  m_Shader: {fileID: 4800000, guid: a8f3d72f24210a1498e858ec1b2aeb08, type: 3}
+  m_Name: BloqueAzulHielo
+  m_Shader: {fileID: 4800000, guid: 107e3367cfd1e1147b5c5d07de21bb1b, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -43,11 +43,27 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Ice:
+        m_Texture: {fileID: 2800000, guid: cb1ec83a7e54bd04580cc78dfed35cf2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ice1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Negro:
+        m_Texture: {fileID: 2800000, guid: d8a97141c56cdbd46ba1961477a0c66f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -59,8 +75,24 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _TexturaBase:
-        m_Texture: {fileID: 2800000, guid: bba637b87cbae67498f5ff2f1742a38d, type: 3}
+    - _Texture0:
+        m_Texture: {fileID: 2800000, guid: cb1ec83a7e54bd04580cc78dfed35cf2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: cb1ec83a7e54bd04580cc78dfed35cf2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample2:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -69,37 +101,36 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _05: 0.5
+    - _2: 2
     - _BumpScale: 1
+    - _CantidadHielo: 0.3
     - _Cutoff: 0.5
-    - _DEscala: 1
-    - _DFuerza: 4
-    - _DHeight: 1
-    - _DVelocidad: 0.05
     - _DetailNormalMapScale: 1
+    - _DireccionHielo: -1
     - _DstBlend: 0
-    - _FFuerza: 2.16
-    - _FIntensidad: 4
+    - _EdgeLength: 2
+    - _FFuerza: 2.51
+    - _FIntensidad: 0.98
+    - _Float0: 0.419
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _MEscala: 2
-    - _MRango: 0.5
-    - _MVelocidad: 0.5
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _PVelocidad: 1
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _TessMax: 25
+    - _TessMin: 10
+    - _TessValue: 32
     - _UVSec: 0
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _ColorPatron: {r: 0.8207547, g: 0.7067557, b: 0.4761926, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FColor: {r: 2.5172927, g: 2.670157, b: 0, a: 0}
-    - _XY: {r: 2, g: 2, b: 0, a: 0}
+    - _FColor: {r: 3.5648696, g: 3.5648696, b: 3.5648696, a: 0}
   m_BuildTextureStacks: []
