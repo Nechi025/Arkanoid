@@ -106,9 +106,9 @@ Shader "Pixelation"
 }
 /*ASEBEGIN
 Version=18900
-0;508;1478;483;1472.848;-7.800049;1;True;False
+0;552;1562;439;1574.207;161.2492;1;True;False
 Node;AmplifyShaderEditor.TextureCoordinatesNode;20;-896.6786,54.87867;Inherit;False;0;-1;2;3;2;SAMPLER2D;;False;0;FLOAT2;1,1;False;1;FLOAT2;0,0;False;5;FLOAT2;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
-Node;AmplifyShaderEditor.RangedFloatNode;22;-971.7698,210.9291;Inherit;False;Constant;_Float0;Float 0;0;0;Create;True;0;0;0;False;0;False;1920;0;0;1920;0;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;22;-963.7698,205.9291;Inherit;False;Constant;_Float0;Float 0;0;0;Create;True;0;0;0;False;0;False;1920;0;0;1920;0;1;FLOAT;0
 Node;AmplifyShaderEditor.TFHCPixelate;19;-634.1788,97.40656;Inherit;False;3;0;FLOAT2;0,0;False;1;FLOAT;128;False;2;FLOAT;0;False;1;FLOAT2;0
 Node;AmplifyShaderEditor.TemplateShaderPropertyNode;17;-571.1201,2.085348;Inherit;False;0;0;_MainTex;Shader;False;0;5;SAMPLER2D;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.SamplerNode;18;-311.5531,29.94848;Inherit;True;Property;_TextureSample0;Texture Sample 0;0;0;Create;True;0;0;0;False;0;False;-1;None;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
@@ -120,4 +120,4 @@ WireConnection;18;0;17;0
 WireConnection;18;1;19;0
 WireConnection;0;0;18;0
 ASEEND*/
-//CHKSM=C232573D39CA97AF593CCC4D48E831CBA390ABA7
+//CHKSM=2CEA514E7F6E15AE0DA2417ADBEA97684468E774
