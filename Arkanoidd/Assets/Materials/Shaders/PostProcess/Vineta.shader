@@ -127,9 +127,9 @@ Node;AmplifyShaderEditor.RangedFloatNode;8;-880,432;Inherit;False;Property;_0001
 Node;AmplifyShaderEditor.RangedFloatNode;7;-992,272;Inherit;False;Property;_Radio;Radio;0;0;Create;True;0;0;0;False;0;False;1.5;0;0;2;0;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleSubtractOpNode;27;-1152,32;Inherit;False;2;0;FLOAT2;0,0;False;1;FLOAT;0;False;1;FLOAT2;0
 Node;AmplifyShaderEditor.RangedFloatNode;30;-1184,192;Inherit;False;Property;_2;2;3;0;Create;True;0;0;0;False;0;False;2;0;0;0;0;1;FLOAT;0
-Node;AmplifyShaderEditor.SimpleMultiplyOpNode;29;-973,12;Inherit;False;2;2;0;FLOAT2;0,0;False;1;FLOAT;0;False;1;FLOAT2;0
-Node;AmplifyShaderEditor.SimpleAddOpNode;19;-688,384;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleSubtractOpNode;18;-688,272;Inherit;False;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.SimpleAddOpNode;19;-688,384;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.SimpleMultiplyOpNode;29;-973,12;Inherit;False;2;2;0;FLOAT2;0,0;False;1;FLOAT;0;False;1;FLOAT2;0
 Node;AmplifyShaderEditor.TemplateShaderPropertyNode;1;-583.4879,-70.80608;Inherit;False;0;0;_MainTex;Shader;False;0;5;SAMPLER2D;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.SimpleAddOpNode;20;-496,320;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.LengthOpNode;31;-747.9087,27.18628;Inherit;True;1;0;FLOAT2;0,0;False;1;FLOAT;0
@@ -140,12 +140,12 @@ Node;AmplifyShaderEditor.LerpOp;22;-10.30444,-24.76381;Inherit;True;3;0;COLOR;0,
 Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;0;335.5614,-10.41318;Float;False;True;-1;2;ASEMaterialInspector;0;2;Vineta;c71b220b631b6344493ea3cf87110c93;True;SubShader 0 Pass 0;0;0;SubShader 0 Pass 0;1;False;False;False;False;False;False;False;False;False;False;False;False;False;False;True;2;False;-1;False;False;False;False;False;False;False;False;False;False;False;True;2;False;-1;True;7;False;-1;False;True;0;False;0;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;True;2;0;;0;0;Standard;0;0;1;True;False;;False;0
 WireConnection;27;0;26;0
 WireConnection;27;1;28;0
-WireConnection;29;0;27;0
-WireConnection;29;1;30;0
-WireConnection;19;0;9;0
-WireConnection;19;1;8;0
 WireConnection;18;0;7;0
 WireConnection;18;1;9;0
+WireConnection;19;0;9;0
+WireConnection;19;1;8;0
+WireConnection;29;0;27;0
+WireConnection;29;1;30;0
 WireConnection;20;0;18;0
 WireConnection;20;1;19;0
 WireConnection;31;0;29;0
@@ -158,4 +158,4 @@ WireConnection;22;1;2;0
 WireConnection;22;2;17;0
 WireConnection;0;0;22;0
 ASEEND*/
-//CHKSM=F45827016642E8D03A0F0E1B106E3DEEEF70325B
+//CHKSM=569A7BA865DCE8E20AAC1FBB17E91D55BD84D565

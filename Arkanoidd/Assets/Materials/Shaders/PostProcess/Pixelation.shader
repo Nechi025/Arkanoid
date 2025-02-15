@@ -106,7 +106,7 @@ Shader "Pixelation"
 }
 /*ASEBEGIN
 Version=18900
-0;735;1562;256;1676.994;-55.18449;1.054503;True;False
+0;849.4136;1562;256;1676.994;59.22908;1.054503;True;False
 Node;AmplifyShaderEditor.TextureCoordinatesNode;20;-896.6786,54.87867;Inherit;False;0;-1;2;3;2;SAMPLER2D;;False;0;FLOAT2;1,1;False;1;FLOAT2;0,0;False;5;FLOAT2;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.RangedFloatNode;22;-963.7698,205.9291;Inherit;False;Constant;_Float0;Float 0;0;0;Create;True;0;0;0;False;0;False;400;0;0;1920;0;1;FLOAT;0
 Node;AmplifyShaderEditor.TFHCPixelate;19;-634.1788,97.40656;Inherit;False;3;0;FLOAT2;0,0;False;1;FLOAT;128;False;2;FLOAT;0;False;1;FLOAT2;0
@@ -120,4 +120,4 @@ WireConnection;18;0;17;0
 WireConnection;18;1;19;0
 WireConnection;0;0;18;0
 ASEEND*/
-//CHKSM=664111C57E77D1C330AB9E7D6639ABE782424FDE
+//CHKSM=EAEB692185E591BF590071878A8848367110E8BC
