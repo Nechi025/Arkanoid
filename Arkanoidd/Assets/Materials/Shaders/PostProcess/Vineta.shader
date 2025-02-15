@@ -119,7 +119,7 @@ Shader "Vineta"
 }
 /*ASEBEGIN
 Version=18900
-0;735;1562;256;1647.431;-232.977;1;True;False
+0;518;1562;473;2486.063;140.486;2.009621;True;False
 Node;AmplifyShaderEditor.TexCoordVertexDataNode;26;-1360,32;Inherit;False;0;2;0;5;FLOAT2;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.RangedFloatNode;28;-1360,160;Inherit;False;Property;_05;0.5;2;0;Create;True;0;0;0;False;0;False;0.5;0;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.RangedFloatNode;9;-992,352;Inherit;False;Property;_Degrade;Degrade;4;0;Create;True;0;0;0;False;0;False;0.9;0;0;2;0;1;FLOAT;0
@@ -158,4 +158,4 @@ WireConnection;22;1;2;0
 WireConnection;22;2;17;0
 WireConnection;0;0;22;0
 ASEEND*/
-//CHKSM=87BE147DDDA6C9D82C17EFAF68758624C2A8411D
+//CHKSM=F45827016642E8D03A0F0E1B106E3DEEEF70325B
