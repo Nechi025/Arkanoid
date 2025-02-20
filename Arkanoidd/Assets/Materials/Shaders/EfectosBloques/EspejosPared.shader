@@ -163,7 +163,7 @@ Shader "Espejo"
 			o.Normal = worldToTangentDir42_g8;
 			float2 uv_TextureSample0 = i.uv_texcoord * _TextureSample0_ST.xy + _TextureSample0_ST.zw;
 			o.Albedo = tex2D( _TextureSample0, uv_TextureSample0 ).rgb;
-			float4 color145 = IsGammaSpace() ? float4(0,0.1058824,0.5372549,1) : float4(0,0.01096009,0.2501584,1);
+			float4 color145 = IsGammaSpace() ? float4(0,0.1058824,0.5372549,1) : float4(0,0.0109601,0.2501584,1);
 			o.Emission = ( ( 1.0 - pow( step( temp_output_140_0 , voroi127 ) , 1.0 ) ) * color145 ).rgb;
 			o.Alpha = 1;
 		}
@@ -256,7 +256,7 @@ Shader "Espejo"
 }
 /*ASEBEGIN
 Version=18900
-0;686;1562;305;1977.024;-136.3606;1.257254;True;False
+0;686;1562;305;2686.613;-6.768143;2.264204;True;False
 Node;AmplifyShaderEditor.SinOpNode;125;-1794.365,472.7247;Inherit;False;1;0;FLOAT;0.05;False;1;FLOAT;0
 Node;AmplifyShaderEditor.TextureCoordinatesNode;126;-1564.34,289.7932;Inherit;False;0;-1;2;3;2;SAMPLER2D;;False;0;FLOAT2;1,1;False;1;FLOAT2;0,0;False;5;FLOAT2;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.RangedFloatNode;135;-1636.142,453.5719;Inherit;False;Constant;_Float1;Float 1;2;0;Create;True;0;0;0;False;0;False;4;0;0;5;0;1;FLOAT;0
@@ -293,4 +293,4 @@ WireConnection;0;0;109;0
 WireConnection;0;1;176;40
 WireConnection;0;2;132;0
 ASEEND*/
-//CHKSM=79FC8D445E48898B0F2B97C9641AADF8EEFF6919
+//CHKSM=FABE3943F3FC6348B22970EEFB0928224C3AAA99
