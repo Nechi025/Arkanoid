@@ -4169,6 +4169,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1921257927}
     m_Modifications:
+    - target: {fileID: 229807242279746312, guid: dd505444862d43a42b0933ac245c587c, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 229807242279746312, guid: dd505444862d43a42b0933ac245c587c, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1803983096777612291, guid: dd505444862d43a42b0933ac245c587c, type: 3}
       propertyPath: m_CullingMask.m_Bits
       value: 55
@@ -4229,6 +4237,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4639217597239810160, guid: dd505444862d43a42b0933ac245c587c, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: f1099903f70bd8247ab3cc18f81c5432, type: 2}
     - target: {fileID: 7776585148204300265, guid: dd505444862d43a42b0933ac245c587c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -4237,6 +4249,14 @@ PrefabInstance:
       propertyPath: parent
       value: 
       objectReference: {fileID: 1921257924}
+    - target: {fileID: 7796918221801130494, guid: dd505444862d43a42b0933ac245c587c, type: 3}
+      propertyPath: initialVelocity.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796918221801130494, guid: dd505444862d43a42b0933ac245c587c, type: 3}
+      propertyPath: initialVelocity.z
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4294,7 +4314,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8570616431157572056, guid: f4d10301efa61794fa5b9be6105900d9, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8570616431157572056, guid: f4d10301efa61794fa5b9be6105900d9, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 8567621735978832458, guid: f4d10301efa61794fa5b9be6105900d9, type: 3}

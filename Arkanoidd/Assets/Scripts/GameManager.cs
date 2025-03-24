@@ -59,8 +59,8 @@ public class GameManager : MonoBehaviour
             Bola spawnedball = Instantiate(ballPrefab, position + new Vector3(0,0,2), Quaternion.identity) as Bola;
 
             spawnedball.transform.parent = null;
-            spawnedball.velocity.x = Random.Range(-1, 1);
-            spawnedball.velocity.z = 1;
+            //spawnedball.velocity.x = Random.Range(-1, 1);
+            //spawnedball.velocity.z = 1;
             spawnedball.isBallMoving = true;
             Rigidbody spawnedBallRb = spawnedball.GetComponent<Rigidbody>();
             spawnedBallRb.isKinematic = false;
